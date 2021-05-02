@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        String[] array = {"hej"};
+        //String[] array = {"hej"};
         //System.out.println(array[2]); //Throws an Exception: Index 2 out of bounds for length 1
         //firstMethod(); //Main does not handle Exception --> program crashes
         System.out.println("Please input cpr: ");

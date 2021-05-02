@@ -13,6 +13,7 @@ public class FileReader {
             String line = readThisFile.nextLine();
             String[] lineAsArray = line.split(";");
             if (lineAsArray[0].equals(cpr)){
+                System.out.println("User found");
                 return true;
             }
         }
