@@ -7,8 +7,7 @@ public class FileReader {
     public FileReader(){
     }
     public boolean isValidUser(String cpr, String password) throws FileNotFoundException {
-        File userData = new File("src/TestData");
-        Scanner readThisFile = new Scanner(userData);
+        Scanner readThisFile = new Scanner(new File("src/TestData"));
         while (readThisFile.hasNextLine()){
             String line = readThisFile.nextLine();
             String[] lineAsArray = line.split(";");
